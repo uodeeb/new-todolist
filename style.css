@@ -10,7 +10,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5vw 1fr 5vw;
+    grid-template-rows: 10vw 1fr 10vw;
     grid-template-areas: 
     "hd"
     "mn"
@@ -52,12 +52,40 @@
     align-items: center;
 }
 
-#list__cont {
+.list__cont {
     width: 90vw;
     height: 40vh;
     border: 1px solid #fff;
 }
 
+.listUl {
+    list-style: none;
+}
+
+.listUl>li {
+    width: 90vw;
+    height: 5vh;
+    border: 1px solid #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: flex;
+}
+
+#one {
+    flex: 1;
+}
+
+#two {
+    flex:2;
+}
+
+#three {
+    flex: 2;
+}
+
+#four {
+    flex:6;
+}
 
 
 
